@@ -24,6 +24,11 @@ public class Airport {
 		this.longitude = longitude;
 		this.timezoneOffset = timezoneOffset;
 	}
+	public Airport(int id, String iataCode,String airportName) {
+		this.id=id;
+		this.iataCode=iataCode;
+		this.airportName=airportName;
+	}
 
 	public int getId() {
 		return id;
